@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Little Moments Kids Boutique</title>
+  <script>
+    const targetHash = '#wishlist';
+    const search = window.location.search;
+    window.location.replace('index.html' + targetHash + (search ? (targetHash.includes('?') ? '&' : '?') + search.slice(1) : ''));
+  </script>
+  <meta http-equiv="refresh" content="0;url=index.html#wishlist" />
+</head>
+<body style="background:#FFF8EE;font-family:sans-serif;text-align:center;padding:50px;">
+  <p style="color:#586345;">Opening Little Moments Kids Boutique... <a href="index.html#wishlist" style="color:#D9A6A0;">Click here</a></p>
+</body>
+</html>

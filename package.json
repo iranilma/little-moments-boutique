@@ -1,0 +1,8 @@
+{
+  "name": "little-moments-kids-boutique",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp -r index.html about.html account.html cart.html collections.html contact.html faq.html how-it-works.html kids-prayer-journal.html privacy.html product.html refund.html shop.html terms.html wishlist.html little_moments_kids_prayer_journal.pdf assets public dist/ 2>/dev/null || true"
+  }
+}
